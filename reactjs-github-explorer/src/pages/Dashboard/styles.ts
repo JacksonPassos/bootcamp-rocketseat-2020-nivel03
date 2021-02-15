@@ -21,9 +21,10 @@ export const Form = styled.form`
     padding: 0 24px;
     border: 0;
     border-radius: 5px 0 0 5px;
+    color: #3a3a3a;
 
     &::placeholder {
-      color: "#a8a8b3";
+      color: #a8a8b3;
     }
   }
   button {
@@ -45,7 +46,7 @@ export const Form = styled.form`
 
 export const Repositories = styled.div`
   margin-top: 80px;
-  max-width: 700px;
+  max-width: 714px;
 
   a {
     background: #fff;
@@ -59,12 +60,12 @@ export const Repositories = styled.div`
     display: flex;
     align-items: center;
 
-    & + a {
-      margin-top: 16px;
-    }
-
     &:hover {
       transform: translateX(10px);
+    }
+
+    & + a {
+      margin-top: 16px;
     }
 
     img {
@@ -74,23 +75,24 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
-        color: "#3d3d4d";
+        color: #3d3d4d;
       }
 
       p {
         font-size: 18px;
-        color: "#A8A8B3";
+        color: #a8a8b3;
         margin-top: 4px;
       }
     }
 
     svg {
       margin-left: auto;
-      color: "#C9C9D4";
+      color: #c9c9d4;
     }
   }
 `;
